@@ -9,12 +9,22 @@
   font-size: 16px;
   border: none;
 	}
+.dropbtn2 {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+	}
 
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
 
 .dropdown-content {
   display: none;
@@ -55,7 +65,9 @@
 }
 
 .dropdown-content2 a:hover {background-color: #00ffff;}
+.dropdown2:hover .dropdown-content2 {display: block;}
 
+.dropdown2:hover .dropbtn2 {background-color: #3e8e41;}
 </style>
 <title>DnD game wiki</title>
 </head>
@@ -74,16 +86,16 @@ body{
 <div class="dropdown">
   <button class="dropbtn">Menu</button>
   <div class="dropdown-content">
-    <div class ="dropdown">
-    <button class="dropbtn">Characters</button>
+    <div class ="dropdown2">
+    <button class="dropbtn2">Characters</button>
     	<div class = "dropdown-content2">
         <a href="#">Zedd</a>
     	  <a href="#">Chase</a>
         <a href="#">Darkhen Rahl</a>
         </div>
 	</div>
-    <div class ="dropdown">
-    <button class="dropbtn">Worldmap</button>
+    <div class ="dropdown2">
+    <button class="dropbtn2">Worldmap</button>
     	<div class = "dropdown-content2">
         <a href="#">Westland</a>
     	  <a href="#">Heartland</a>
