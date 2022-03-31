@@ -10,6 +10,7 @@
   border: none;
   border-radius: 8px;
 	}
+
 .dropbtn2 {
   background-color: #b3b3b3;
   color: white;
@@ -51,8 +52,25 @@
   z-index: 1;
   border-radius: 8px;
 }
-
-
+.heartland-border {
+    position: absolute;
+    top: 550px;
+    left: 1650px;
+    width: 100px;
+    height: auto;
+    display:block
+    z-index: 1;
+    }
+.heartland-nametag {
+    position: absolute;
+    top: 525px;
+    left: 1650px;
+    width: 100px;
+    height: auto;
+    z-index: 2     
+    }
+    
+    
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -100,31 +118,40 @@
     <div class ="dropdown2">
     <button class="dropbtn2">Characters</button>
     	<div class = "dropdown-content2">
-        <a href="#">Zedd</a>
+          <a href="#">Zedd</a>
     	  <a href="#">Chase</a>
-        <a href="#">Darkhen Rahl</a>
+	  <a href="#">Darkhen Rahl</a>
+	  <a href="#">?</a>
         </div>
-	</div>
+    </div>
     <div class ="dropdown2">
-    <button class="dropbtn2">Worldmap</button>
+    <button class="dropbtn2">Places</button>
     	<div class = "dropdown-content2">
-        <a href="#">Westland</a>
+          <a href="https://pancake010.github.io/westland.html">Westland</a>
     	  <a href="#">Heartland</a>
-        <a href="#">?</a>
+          <a href="#">?</a>
+        </div>
+    </div>
+    <div class ="dropdown2">
+    <button class="dropbtn2">Other</button>
+    	<div class = "dropdown-content2">
+	  <a href="#">Quad fighters</a>
+          <a href="#">Gars</a>
+		<a href='#'>Sword of Truth</a>
+	  <a href="#">?</a>
         </div>
 	</div>
-    <a href="https://pancake010.github.io/welcome.html">Main menu</a>
+    <a href="https://pancake010.github.io/credits.html">credits</a>
   </div>
 </div>
-<script>
-let scwidth = screen.width;
-</script>
-<img src="https://github.com/Pancake010/Pancake010.github.io/blob/main/DnD%20worldmap%20Westland.jpg?raw=true" alt="Map Westland" usemap="#workmap" width = "100%">
 
-<map name="workmap">
-    <area  shape="circle" coords="1700,525,50" alt="Hearthland" href="https://pancake010.github.io/heartland.html" title=Heartland>
-  
-</map>
+<a class=heartland_border  href="https://pancake010.github.io/heartland.html" >
+    <img class="heartland-border" src="https://github.com/Pancake010/Pancake010.github.io/blob/main/Red_circle.svg.png?raw=true" title="Heartland">
+    <img class="heartland-nametag" src="https://github.com/Pancake010/Pancake010.github.io/blob/main/heartland_nametag.png?raw=true">    
+</a>
+<img src="https://github.com/Pancake010/Pancake010.github.io/blob/main/DnD%20worldmap%20Westland.jpg?raw=true" alt="Map Westland" width = "100%" >
+
+
 
 
 </body>
