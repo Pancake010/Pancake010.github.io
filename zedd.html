@@ -21,7 +21,7 @@
 	}
 
 .dropdown {
-  position: relative;
+  position: fixed;
   padding: 4px;
   display: inline-block;
 }
@@ -77,23 +77,51 @@
 .dropdown2:hover .dropdown-content2 {display: block;}
 
 .dropdown2:hover .dropbtn2 {background-color: #666666;}
-	
+#grad1 {
+  
+}
+.txt {
+    position: absolute;
+    top: 100px;
+    left: 2%;
+    padding: 5px;
+    text-align: left;
+    color: black;
+    }
 .center {
     position:absolute;
+    top: 0px;
+    left: 0px;
     width: 100%;
-    top:30%;
     text-align:center;
-    color:white;
+    background-color: #000099;
+    color: white;
         
     }	
-    
+.picture {
+    position: absolute;
+    top: 60px;
+    left: 80%;
+    margin: 5px;
+    width: 18%;
+    height: auto;
+    }
 </style>
 <title>Zedd</title>
 <link rel="icon" type="image/x-icon" href="https://github.com/Pancake010/Pancake010.github.io/blob/main/SmallLogo.png?raw=true">
 </head>
-<body style="background-color:#99ff99; opacity:0.4;">
-
-
+<body>
+<style>
+    body, html{
+        height:100%;
+    }
+body {
+  height: 100%;
+  background-color: transparent; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom left, #99ff99, transparent, transparent);
+  background-repeat: no-repeat;
+}
+    </style>
 <div class="center">
     <h1>Zedd</h1>
 </div>
@@ -129,5 +157,21 @@
     <a href="https://pancake010.github.io/welcome.html">Main menu</a>
   </div>
 </div>
+<div class="txt">
+ <h3>Name: </h3>
+ <p>Zeddicus Z'ul Zorrander</p> 
+ <h3>Age: </h3>
+ <p>unknown, pretty old</p> 
+ <h3>Lives in</h3>
+ <p>Heartland</p>
+ <h3>Job: </h3>
+ <p>full-time wizard, parttime town healer/cloud-reader</p>
+ <h3>About me: </h3>
+ <p>Did you bring food? No? Do you even love me?</p>
+ <h3>Info: </h3>
+ <p>Zedd is the last true wizard alive and carries the title of "Wizard of the First Order". He is originally from Midland but emigrated to Westland after the other wizards didn't want his help in the war against Panis Rahl, the father of <a href="https://pancake010.github.io/darkhenrahl.html">Darkhen Rahl</a>. As a last act, he put up the barriers, large pieces of the underworld, pulled up to the overworld, and threw a fireball trough. This fireball, killed Panis Rahl and burned Darkhen Rahl. After effectively ending the war this way, Zedd cast a web, a spell that made everyone forget who he was and what his name was. He fled to the midlands with his wife and daughter. He is the only one that can legally hand over the <a href="https://pancake010.github.io/swordoftruth.html">Sword of Truth</a> and assign the true seeker. He has a passion for eating and currently has a pet cat named Cat.</p> 
+</div>
+ 
+<img class="picture" src="https://github.com/Pancake010/Pancake010.github.io/blob/main/Zedd.png?raw=true" title="Zedd">
 </body>
 </html>
